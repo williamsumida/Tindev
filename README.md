@@ -7,20 +7,20 @@ A edição 8.0 tem como objetivo criar o Tindev, uma aplicação semelhante ao t
 
 Este README é dedicado à anotações e instruções feitas durante o evento.
 ## Índice
-[Gerenciador de pacotes]()
-[Backend (Nodejs)]()
-- [NodeJS (Utilizando o Chocolatey)]()
-- [Yarn]()
-- [Express]()
-- [Nodemon]()
-- [Mongoose]()
-- [Axios]()
-- [Cors]()
-- [Execução de comandos]()
-- [Ferramentas de desenvolvimento]()
-    - [Insomnia]()
-    - [MongoDB Atlas]()
-    - [MongoDB Compass]()
+[Gerenciador de pacotes](https://github.com/williamsumida/Semana-OmniStack-8.0#gerenciador-de-pacotes-windows)
+[Backend (Nodejs)](https://github.com/williamsumida/Semana-OmniStack-8.0#backend-nodejs)
+- [NodeJS (Utilizando o Chocolatey)](https://github.com/williamsumida/Semana-OmniStack-8.0#nodejs-utilizando-o-chocolatey)
+- [Yarn](https://github.com/williamsumida/Semana-OmniStack-8.0#yarn)
+- [Express](https://github.com/williamsumida/Semana-OmniStack-8.0#express)
+- [Nodemon](https://github.com/williamsumida/Semana-OmniStack-8.0#nodemon)
+- [Mongoose](https://github.com/williamsumida/Semana-OmniStack-8.0#mongoose)
+- [Axios](https://github.com/williamsumida/Semana-OmniStack-8.0#axios)
+- [Cors](https://github.com/williamsumida/Semana-OmniStack-8.0#cors)
+- [Execução de comandos](https://github.com/williamsumida/Semana-OmniStack-8.0#execu%C3%A7%C3%A3o-de-comandos)
+- [Ferramentas de desenvolvimento](https://github.com/williamsumida/Semana-OmniStack-8.0#ferramentas-de-desenvolvimento)
+    - [Insomnia](https://github.com/williamsumida/Semana-OmniStack-8.0#insomnia)
+    - [MongoDB Atlas](https://github.com/williamsumida/Semana-OmniStack-8.0#mongodb-atlas)
+    - [MongoDB Compass](https://github.com/williamsumida/Semana-OmniStack-8.0#mongodb-compass)
 
 [Mobile (React Native)](https://github.com/williamsumida/Semana-OmniStack-8.0#mobile-react-native)
 - [Instalação e criação projeto React Native](https://github.com/williamsumida/Semana-OmniStack-8.0#instala%C3%A7%C3%A3o-e-cria%C3%A7%C3%A3o-projeto-react-native)
@@ -121,7 +121,8 @@ Como base de dados, utilizamos o MongoDB. E criamos um servidor no [MongoDB Atla
 [MongoDB Compass](https://www.mongodb.com/products/compass) é um gerenciador de banco de dados para o MongoDB.
 TODO: colocar prints do programa
 
-
+___
+# Frontend (ReactJS)
 
 **Babel**
 
@@ -137,8 +138,6 @@ yarn add react-router-dom
 
 React é compenente, estado e propriedade
 
-___
-# Frontend (ReactJS)
 ___
 
 # Mobile (React Native)
