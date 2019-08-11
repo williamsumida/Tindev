@@ -9,12 +9,18 @@ Este README é dedicado à anotações e instruções feitas durante o evento.
 ## Índice
 [Gerenciador de pacotes]()
 [Backend (Nodejs)]()
-- [Nodejs]()
+- [NodeJS (Utilizando o Chocolatey)]()
 - [Yarn]()
 - [Express]()
-- []()
-- []()
-
+- [Nodemon]()
+- [Mongoose]()
+- [Axios]()
+- [Cors]()
+- [Execução de comandos]()
+- [Ferramentas de desenvolvimento]()
+    - [Insomnia]()
+    - [MongoDB Atlas]()
+    - [MongoDB Compass]()
 
 [Mobile (React Native)](https://github.com/williamsumida/Semana-OmniStack-8.0#mobile-react-native)
 - [Instalação e criação projeto React Native](https://github.com/williamsumida/Semana-OmniStack-8.0#instala%C3%A7%C3%A3o-e-cria%C3%A7%C3%A3o-projeto-react-native)
@@ -41,7 +47,7 @@ Instalação do node:
 ```bash
 cinst nodejs.install  --version 10.16.1
 ```
-### yarn
+### Yarn
 O yarn é um eficiente gerenciador de dependências e pacotes.
 Instalação do yarn:
 ```bash
@@ -66,11 +72,22 @@ O Nodemon é uma dependência de desenvolvimento para atualizar todas as mudanç
 yarn add nodemon -D
 ```
 
-### Axios
+### Mongoose
+O Mongoose é uma ferramenta que vai facilitar o trabalho com banco de dados utilizando apenas sintaxe de javascript.
+```bash
+yarn add mongoogse
+```
 
-Cliente HTTP usado para enviar requisições à API.
+### Axios
+Cliente HTTP usado para requisições em APIs. externas.
 ```bash
 yarn add axios
+```
+
+### Cors
+Permite que a aplicação seja acessada por qualquer endereço.
+```
+yarn add cors
 ```
 
 ### Execução de comandos
@@ -97,9 +114,12 @@ Com esta alteração, o servidor vai reiniciar automaticamente após qualquer mo
 
 #### Insomnia
 [Insominia](https://insomnia.rest/) é um programa para cadastrar as rotas da aplicação e fazer requisições à APIs.
-
+TODO: colocar prints do programa
+#### MongoDB Atlas
+Como base de dados, utilizamos o MongoDB. E criamos um servidor no [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 #### MongoDB Compass
-[MongoDB Compass](https://www.mongodb.com/products/compass)
+[MongoDB Compass](https://www.mongodb.com/products/compass) é um gerenciador de banco de dados para o MongoDB.
+TODO: colocar prints do programa
 
 
 
@@ -116,6 +136,9 @@ yarn add react-router-dom
 ```
 
 React é compenente, estado e propriedade
+
+___
+# Frontend (ReactJS)
 ___
 
 # Mobile (React Native)
@@ -211,11 +234,11 @@ yarn add react-native-reanimated
 ```
 
 ### Axios
-Cliente HTTP usado para enviar requisições à API.
+Cliente HTTP usado para requisições em APIs. externas.
 ```
 yarn add axios
 ```
-No caso do ios, o endereço local configurado no arquivo **src/services/api.js** funcionará sem problemas. Já para o android se conectar corretamente, é necessário colocar o ip da rede local (192.168.x.x) ou forçar o android a utilizar a porta do servidor por meio do seguinte comando:
+No caso do iOS, com o endereço local configurado no arquivo **src/services/api.js** o acesso à API funcionará sem problemas. Já para o android se conectar corretamente, é necessário colocar o ip da rede local (192.168.x.x) ou forçar o android a utilizar a porta do servidor por meio do seguinte comando:
 ```
 adb reverse tcp:3333 tcp:3333
 ```
