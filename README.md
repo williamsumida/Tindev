@@ -8,6 +8,7 @@ A edição 8.0 tem como objetivo criar o Tindev, uma aplicação semelhante ao t
 Este README é dedicado à anotações e instruções feitas durante o evento.
 ## Índice
 [Gerenciador de pacotes](https://github.com/williamsumida/Semana-OmniStack-8.0#gerenciador-de-pacotes-windows)
+
 [Backend (Nodejs)](https://github.com/williamsumida/Semana-OmniStack-8.0#backend-nodejs)
 - [NodeJS (Utilizando o Chocolatey)](https://github.com/williamsumida/Semana-OmniStack-8.0#nodejs-utilizando-o-chocolatey)
 - [Yarn](https://github.com/williamsumida/Semana-OmniStack-8.0#yarn)
