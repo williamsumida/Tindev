@@ -63,7 +63,7 @@ yarn init -y
 
 ### Express
 Express é um microframework pro nodejs que auxilia a lidar com rotas (requisições e respostas para o servidor).
-```
+```bash
 yarn add express
 ```
 
@@ -87,7 +87,7 @@ yarn add axios
 
 ### Cors
 Permite que a aplicação seja acessada por qualquer endereço.
-```
+```bash
 yarn add cors
 ```
 
@@ -129,11 +129,11 @@ ___
 
 **Web Pack**
 **Criação do Projeto Frontend**
-```
+```bash
 yarn create react-app frontend
 ```
 
-```
+```bash
 yarn add react-router-dom
 ```
 
@@ -146,24 +146,24 @@ ___
 ### Instalação e criação projeto React Native
 
 Para instalar o React Native, execute o comando:
-```
+```bash
 yarn global add react-native-cli
 ```
 
 Criação do projeto:
-```
+```bash
 react-native init "nome do projeto"
 ```
 
 ### React Navigation
 Módulo responsável por realizar a navigação básica.
-```
+```bash
 yarn add react-navigation 
 ```
 
 ### React Native Gesture Handler
 Dependência do react-navigation utilizada para lidar com os gestos do usuário.
-```
+```bash
 yarn add react-native-gesture-handler 
 ```
 Para finalizar a instalação é necessário modificar alguns arquivos de configuração no seguinte diretório: 
@@ -171,13 +171,13 @@ Para finalizar a instalação é necessário modificar alguns arquivos de config
 >android/app/src/main/java/com/tindev/MainActivity.java
 
 Adicione os seguintes imports:
-```
+```java
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 ```
 E o seguinte código:
-```
+```java
 @Override
 protected ReactActivityDelegate createReactActivityDelegate() {
   return new ReactActivityDelegate(this, getMainComponentName()) {
@@ -190,7 +190,7 @@ protected ReactActivityDelegate createReactActivityDelegate() {
 ```
 
 Resultado da alteração no arquivo MainActivity.java:
-```
+```java
 package com.tindev;
 
 import com.facebook.react.ReactActivity;
@@ -229,31 +229,31 @@ yarn react-native run-android
 
 ### React Native Reanimated
 Animações de transições de rotas.
-```
+```bash
 yarn add react-native-reanimated
 ```
 
 ### Axios
 Cliente HTTP usado para requisições em APIs. externas.
-```
+```bash
 yarn add axios
 ```
 No caso do iOS, com o endereço local configurado no arquivo **src/services/api.js** o acesso à API funcionará sem problemas. Já para o android se conectar corretamente, é necessário colocar o ip da rede local (192.168.x.x) ou forçar o android a utilizar a porta do servidor por meio do seguinte comando:
-```
+```bash
 adb reverse tcp:3333 tcp:3333
 ```
 
 ### Async Storage
 Async Storage é uma ferramenta que funciona como um local storage da web. Utilizaremos para armazenar informações rápidas que precisamos ter entre as telas da aplicação e quando o usuário abre/fecha o app.
-```
+```bash
 yarn add @react-native-community/async-storage
 ```
 Para quem está programando para ios, é necessário ir até a pasta ios e rodar o seguinte comando:
-```
+```bash
 pod install
 ```
 E para terminar, rodar o comando run novamente.
-```
+```bash
 yarn react-native run-android
             ou
 yarn react-native run-ios
